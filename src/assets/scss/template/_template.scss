@@ -118,3 +118,53 @@ p {
    }
 
 }
+
+// FOOTER
+.footer {
+   background: #f5f5f5;
+   background-color: #f5f5f5;
+
+   table {
+      background: #f5f5f5;
+      background-color: #f5f5f5;
+   }
+   p {
+      text-align: center;
+      font-size: 12px;
+      margin-bottom: 10px !important;
+   }
+   .socialMedia {
+      a {
+         display: inline-block;
+         img {
+            width: 30px;
+         }
+      }
+      .facebook {
+         padding-left: 20px;
+         padding-right: 20px;
+      }
+   }
+   .links {
+      & > tbody > tr > th {
+         padding-bottom: 5px;
+      }
+      th {
+         padding-left: 16px !important;
+      }
+      a {
+         color: #616161 !important;
+      }
+   }
+   .unsub-copyright {
+      th {
+         padding-left: 16px !important;
+      }
+      a {
+         color: #616161 !important;
+      }
+      p {
+         color: #616161 !important;
+      }
+   }
+}
