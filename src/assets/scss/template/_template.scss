@@ -35,12 +35,35 @@ html,
 
 // SECTION-1
 .section-1 {
-   p {
-      margin-bottom: 20px;
+   .yourName {
+      margin-bottom: 10px;
    }
+   th {
+      padding-left: 20px !important;
+   }
+   p {
+      margin-bottom: 22px;
+      span {
+         font-weight: 600;
+      }
+   }
+   ul {
+      padding-left: 20px;
+      td {
+         color: #e44232;
+      }
+      li {
+         margin-bottom: 13px;
+      }
+   }
+
    .learnMoreLink {
       img {
          display: inline-block;
+         vertical-align: middle;
+         width: 14px;
+         padding-bottom: 3px;
+         padding-right: 7px;
       }
    }
 }
