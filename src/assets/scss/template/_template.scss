@@ -5,5 +5,22 @@
 body,
 html,
 .body {
-  background: #fff !important;
+  background: #eaeaea !important;
+}
+
+.header__logo {
+   th {
+      padding-top: 12px !important;
+      // padding-bottom: 12px !important;
+      padding-right: 16px !important;
+      padding-left: 16px !important;
+   }
+   img {
+      height: 30px;
+   }
+}
+.header__bannerImg {
+   img {
+      height: 150px;
+   }
 }
