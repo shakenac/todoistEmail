@@ -18,9 +18,15 @@ html,
    img {
       height: 30px;
    }
+   @media only screen and (max-width: 596px) {
+      img {
+         height: 30px !important;
+         width: inherit !important;
+      }
+   }
 }
 .header__bannerImg {
    img {
-      height: 150px;
+      height: 150px !important;
    }
 }
