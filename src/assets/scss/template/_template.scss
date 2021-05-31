@@ -8,6 +8,7 @@ html,
   background: #eaeaea !important;
 }
 
+// HEADER
 .header__logo {
    th {
       padding-top: 12px !important;
@@ -28,5 +29,18 @@ html,
 .header__bannerImg {
    img {
       height: 150px !important;
+   }
+}
+
+
+// SECTION-1
+.section-1 {
+   p {
+      margin-bottom: 20px;
+   }
+   .learnMoreLink {
+      img {
+         display: inline-block;
+      }
    }
 }
